@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Resume
+title: "Resume - Tommaso Bianconcini"
+description: "PhD in Computer Science with expertise in optimization algorithms, vehicle routing, AI, and LLMs. Data Scientist at Verizon Connect with 10+ years experience in research and development."
+keywords: "resume, CV, data scientist, PhD computer science, optimization, vehicle routing, AI, LLM, Verizon Connect, Florence Italy"
 permalink: /resume/
 ---
 

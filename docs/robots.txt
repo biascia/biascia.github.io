@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://biascia.github.io/sitemap.xml

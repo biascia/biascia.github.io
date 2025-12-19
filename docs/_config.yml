@@ -28,10 +28,29 @@ url: "https://biascia.github.io" # the base hostname & protocol for your site, e
 github_username:  biascia
 linkedin_username: tommaso-bianconcini-58399642
 
+# SEO settings
+author:
+  name: "Tommaso Bianconcini"
+  title: "Data Scientist and Research Engineer"
+
+# Social media and professional profiles
+social:
+  name: "Tommaso Bianconcini"
+  links:
+    - "https://github.com/biascia"
+    - "https://www.linkedin.com/in/tommaso-bianconcini-58399642"
+    - "https://scholar.google.com/citations?hl=en&user=fpRUQh8AAAAJ"
+
+# Default SEO metadata
+lang: en_US
+locale: en_US
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

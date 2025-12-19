@@ -1,9 +1,13 @@
 ---
 layout: home
+title: "Tommaso Bianconcini - Data Scientist & Research Engineer"
+description: "Data Scientist and Research Engineer specializing in optimization algorithms, vehicle routing problems, Large Language Models, AI, and computer vision applications for telematics."
+keywords: "data scientist, research engineer, optimization algorithms, vehicle routing, VRP, large language models, LLM, AI, computer vision, telematics, deep learning, machine learning"
+image: /assets/images/profile.png
 ---
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/profile.png" alt="Tommaso Bianconcini" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/assets/images/profile.png" alt="Tommaso Bianconcini - Data Scientist and Research Engineer specializing in AI, optimization algorithms, and vehicle routing problems" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
 
 ## About Me

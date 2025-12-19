@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Publications
+title: "Publications & Patents - Tommaso Bianconcini"
+description: "Academic publications and US patents in optimization algorithms, vehicle routing, computer vision, crash detection, LLMs, and AI for telematics. Published in ECCV, ICCV, IEEE Transactions."
+keywords: "publications, patents, research, optimization, cubic regularization, vehicle routing, VRP, crash detection, computer vision, deep learning, telematics, ECCV, ICCV, IEEE"
 permalink: /publications/
 ---
 
