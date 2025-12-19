@@ -2,6 +2,10 @@
 layout: home
 ---
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/profile.png" alt="Tommaso Bianconcini" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
+
 ## About Me
 
 I'm a Data Scientist and Research Engineer at Verizon Connect in Florence, Italy, specializing in optimization algorithms, vehicle routing problems, and AI applications including Large Language Models.
