@@ -21,11 +21,17 @@ I hold a PhD in Computer Science from Università degli Studi di Firenze, where 
 
 ## Recent Work
 
-My recent projects span multiple domains:
-- LLM-powered applications for enterprise workflow optimization
+My recent projects focus on:
+- LLM-powered applications
 - Multimodal crash detection using vehicular sensor data and video
-- Real-time vehicle tailgating detection systems
-- Logistics optimization platforms with dynamic scheduling capabilities
-- Load planning optimization using automated 3D packing
+- Traffic light violation detection
+
+## Technical Skills
+
+- **Programming**: Python, C++
+- **Machine Learning**: PyTorch, TensorFlow, scikit-learn
+- **Computer Vision**: OpenCV, image processing, video analysis
+- **Optimization**: Mathematical optimization, vehicle routing algorithms
+- **Tools & Frameworks**: Git, Docker, Linux, cloud computing
 
 Feel free to explore my [publications](/publications/) and [resume](/resume/) to learn more about my work.
