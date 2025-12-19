@@ -32,6 +32,6 @@ My recent projects focus on:
 - **Machine Learning**: PyTorch, TensorFlow, scikit-learn
 - **Computer Vision**: OpenCV, image processing, video analysis
 - **Optimization**: Mathematical optimization, vehicle routing algorithms
-- **Tools & Frameworks**: Git, Docker, Linux, cloud computing
+- **Tools & Frameworks**: Git, Docker, Linux, cloud computing (AWS)
 
 Feel free to explore my [publications](/publications/) and [resume](/resume/) to learn more about my work.
