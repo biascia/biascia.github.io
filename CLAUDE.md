@@ -81,13 +81,17 @@ This generates the static site in `docs/_site/` directory (excluded from git).
 docs/
 ├── _config.yml           # Jekyll configuration and site metadata
 ├── _bibliography/        # Academic publications in BibTeX format
-│   └── references.bib
+│   └── references.bib    # Complete bibliography from Google Scholar
 ├── index.markdown        # Homepage with professional introduction
 ├── resume.markdown       # Resume page with work/education history
-├── publications.markdown # Publications page (patents, articles, thesis)
+├── publications.markdown # Publications page (selected highlights)
 ├── 404.html             # Custom 404 error page
 ├── Gemfile              # Ruby gem dependencies
 └── Gemfile.lock         # Locked gem versions
+
+scripts/
+├── update_publications.py # Python script to sync from Google Scholar
+└── README.md             # Documentation for scripts
 ```
 
 ## Configuration Details
@@ -95,8 +99,8 @@ docs/
 **Jekyll Configuration** (`docs/_config.yml`):
 - Site uses Minima theme with default layouts
 - Plugins: jekyll-feed
-- Personal info configured: GitHub (biascia), Twitter (tommasobianconc), LinkedIn (tommaso-bianconcini-58399642)
-- Site description highlights expertise in optimization algorithms, vehicle routing, and AI applications
+- Personal info configured: GitHub (biascia), LinkedIn (tommaso-bianconcini-58399642)
+- Site description highlights expertise in optimization algorithms, vehicle routing problems, Large Language Models, and AI applications for telematics and computer vision
 
 **Important**: All Jekyll source files and content are in the `docs/` directory, not the repository root.
 
@@ -111,19 +115,33 @@ Pages use Jekyll front matter with layout specifications:
 
 ### Site Pages
 
-- **Homepage** (index.markdown): Professional introduction, research focus areas, and recent work highlights
-- **Resume** (resume.markdown): Educational background and work experience
-- **Publications** (publications.markdown): Organized list of patents, journal articles, and thesis
+- **Homepage** (index.markdown): Professional introduction highlighting expertise in optimization, VRP, LLMs, AI/Computer Vision, and applied machine learning. Includes research focus areas and recent work highlights with LLM applications listed first.
+- **Resume** (resume.markdown): Educational background and work experience. Current role (2018-Present at Verizon Connect) emphasizes work with classical ML, deep learning, LLMs, and vehicle routing algorithms.
+- **Publications** (publications.markdown): Curated selection of key patents and publications. Links to Google Scholar profile for complete list. Includes 10 selected US patents (2018-2025) and 9 selected publications from major conferences (ECCV, ICCV, ITSC) and journals (IEEE Transactions).
 
 ### Bibliography
 
-Academic publications are stored in BibTeX format in `docs/_bibliography/references.bib`. The file contains:
-- Journal articles
-- PhD thesis
-- US Patents
-- Conference proceedings
+Academic publications are stored in BibTeX format in `docs/_bibliography/references.bib`. This is the source of truth for all publications and can be updated from Google Scholar.
 
-Publications span topics in optimization algorithms, vehicle routing problems (VRP), and AI/computer vision applications.
+**Google Scholar Profile**: https://scholar.google.com/citations?hl=en&user=fpRUQh8AAAAJ
+
+The bibliography file contains (as of 2025):
+- ~30+ entries total including journal articles, conference papers, patents, and thesis
+- US Patents spanning 2018-2025 covering vehicle routing, crash detection, tailgating detection, load planning, real-time ETAs, and ML for adverse conditions
+- Conference papers from major venues (ECCV, ICCV, ITSC)
+- IEEE journal articles
+- Optimization research papers
+- PhD thesis (2015)
+
+Publications span topics in:
+- Optimization algorithms (cubic regularization methods)
+- Vehicle routing problems (VRP) and logistics
+- Computer vision and video analysis for telematics
+- Deep learning for crash detection and driver behavior
+- Continual learning and privacy-preserving recognition
+- Real-time systems and route optimization
+
+**Updating Publications**: The `publications.markdown` page shows selected highlights. The full bibliography in `references.bib` can be manually updated by exporting from Google Scholar (select all → Export → BibTeX). A Python script exists at `scripts/update_publications.py` but may encounter Google Scholar rate limiting.
 
 ## Git Workflow
 
@@ -138,6 +156,30 @@ Publications span topics in optimization algorithms, vehicle routing problems (V
 - No JavaScript or custom styling beyond the theme
 - The Minima theme automatically generates navigation links for all pages with titles in the header
 
+## Updating Publications from Google Scholar
+
+The site includes a Python script to sync publications from Google Scholar, though manual export is often more reliable due to Google's bot detection.
+
+### Manual Method (Recommended)
+
+1. Visit https://scholar.google.com/citations?hl=en&user=fpRUQh8AAAAJ
+2. Select publications to export (or select all)
+3. Click "Export" → "BibTeX"
+4. Copy the BibTeX entries and update `docs/_bibliography/references.bib`
+5. Update `docs/publications.markdown` to highlight key publications if needed
+
+### Automated Script (May Encounter Rate Limiting)
+
+```bash
+# Install dependency
+pip install scholarly
+
+# Run script from anywhere
+python3 scripts/update_publications.py
+```
+
+The script uses the `scholarly` library but may hang due to Google Scholar's rate limiting and bot detection. Use manual export as a fallback.
+
 ## Troubleshooting
 
 **Ruby Version Compatibility**: If you encounter errors about `tainted?` method or other Ruby 3.2+ incompatibilities, ensure you're using github-pages gem version 228 or later. Delete `Gemfile.lock` and run `bundle install` to regenerate with compatible versions.
@@ -146,3 +188,5 @@ Publications span topics in optimization algorithms, vehicle routing problems (V
 ```bash
 bundle exec jekyll serve --port 4001
 ```
+
+**Config Changes Not Showing**: Changes to `_config.yml` require restarting the Jekyll server. Kill the server (Ctrl+C or `pkill -f "jekyll serve"`) and start it again.
