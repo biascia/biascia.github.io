@@ -21,11 +21,11 @@
 title: "Tommaso Bianconcini"
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Tommaso Bianconcini... Work in progress
+  Data Scientist and Research Engineer specializing in optimization algorithms,
+  vehicle routing problems, and AI applications for telematics and computer vision.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://biascia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  biascia
-twitter_username: tommasobianconc
 linkedin_username: tommaso-bianconcini-58399642
 
 # Build settings

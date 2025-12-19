@@ -34,8 +34,8 @@ permalink: /resume/
 2018-Present
 :   **Data Scientist/Research Engineer** @ Verizon Connect, Florence IT
 
-    *AI (classical and deep learning algoirhtms) on video feedback and
-     telematics data. Development of vehicle routing algorihtms.*
+    *AI (classical and deep learning algorithms) on video feedback and
+     telematics data. Development of vehicle routing algorithms.*
 
 ---
 
@@ -57,5 +57,5 @@ permalink: /resume/
 2010-2012
 :   **Museum Guide** @ Giardino di Archimede, Florence IT
 
-    *Occasional guided tours of a science musesum for students, mainly
+    *Occasional guided tours of a science museum for students, mainly
      from high schools.*
