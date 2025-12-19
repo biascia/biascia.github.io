@@ -8,7 +8,7 @@ layout: home
 
 ## About Me
 
-I'm a Data Scientist and Research Engineer at Verizon Connect in Florence, Italy, specializing in optimization algorithms, vehicle routing problems, and AI applications including Large Language Models.
+I'm a Data Scientist and Research Engineer at Verizon Connect in Florence, Italy, focused on optimization algorithms, vehicle routing problems, and AI applications including Large Language Models.
 
 My research focuses on:
 - **Optimization Theory**: Cubic regularization algorithms and adaptive methods for unconstrained optimization
