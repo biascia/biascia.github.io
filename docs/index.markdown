@@ -21,7 +21,7 @@ My research focuses on:
 - **Large Language Models**: LLM applications for enterprise solutions and intelligent systems
 - **Applied Machine Learning**: Real-time logistics management and automated 3D packing optimization
 
-I hold a PhD in Computer Science from Università degli Studi di Firenze, where my thesis explored adaptive cubic regularization algorithms. My work bridges theoretical optimization with practical applications in fleet management and intelligent transportation systems.
+I hold a PhD in Computer Science from Università degli Studi di Firenze, where my thesis explored adaptive cubic regularization algorithms. My work bridges AI with real-world applications in fleet management and intelligent transportation systems.
 
 ## Recent Work
 

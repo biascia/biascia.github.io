@@ -37,7 +37,7 @@ permalink: /resume/
 :   **Data Scientist/Research Engineer** @ Verizon Connect, Florence IT
 
     *AI (classical and deep learning algorithms, LLMs) on video feedback and
-     telematics data. Development of vehicle routing algorithms and LLM-powered
+     telematics data. Development of computer vision and vehicle routing algorithms, LLM-powered
      enterprise applications.*
 
 ---
