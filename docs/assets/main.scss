@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// Footer only has two columns (social, description) now, so let the
+// second one fill the space the removed third column left behind.
+.footer-col-1 {
+  width: calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: calc(65% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
+}
