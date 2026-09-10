@@ -12,6 +12,10 @@ For the most up-to-date list of publications and citations, visit my [Google Sch
 
 ## Selected Publications
 
+**Color Is Not Enough: Dataset and Method for Identifying Relevant Traffic Lights in Driving Scenes** (2025)
+T. Trinci, S. Magistri, T. Bianconcini, L. Taccari, L. Sarti, F. Sambo
+*IEEE Transactions on Intelligent Transportation Systems, vol. 27, no. 1, pp. 1116-1125*
+
 **Incremental and Decremental Continual Learning for Privacy-Preserving Video Recognition** (2024)
 L. Caselli, S. Magistri, T. Bianconcini, A. Benericetti, D. C. de Andrade, A. D. Bagdanov
 *European Conference on Computer Vision (ECCV), Springer*
